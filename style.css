@@ -1,0 +1,44 @@
+.container{
+    font-family: lobster, cursive;
+    border: 1px solid black;
+    padding: 30px 0 ;
+    background: lightgray;
+    border-radius: 30px;
+}
+.container div{
+    margin: 0 0 ;
+    padding: 10px 0 ;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-shadow: 10px 0 #232931;
+    font-size: 6rem;
+}
+
+img{
+    width:60%;
+    transition: transform 0.1s ease;
+
+}
+h3{
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+}
+.playerbox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 10px ;
+}
+.dicebox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20px;
+}
+.line
+{
+    border: 1px solid black;
+}

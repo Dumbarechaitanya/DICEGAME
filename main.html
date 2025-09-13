@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container lg-7 md-6 sm-4 text-center mt-5">
+        <div>
+            <h1 style="color: #4ECCA3;">🎲 D I C E G A M E 🎲</h1>
+            <h3>Player with Biggest Number Wins</h3>
+        </div>
+        <div class="playerbox">
+            <div class="dicebox">
+                <div>
+                    <h2 style="color: #4ECCA3;">
+                        P L A Y E R 1
+                    </h2>
+                    <img class="P1" id="P1" src="DICE/1.png"/> 
+                </div>
+                <div class="line"></div>
+                <div>
+                    <h2 style="color: #4ECCA3;">
+                        P L A Y E R 2
+                    </h2>
+                    <img class="P2" src="DICE/1.png" id="P2" alt="">
+                    
+                </div>
+            </div>
+            <div>
+                <div>
+                        <h1>
+                            <span id="result" style="color: #4ECCA3;"></span>
+                        </h1>
+                    </div>
+                <button id="press" class="btn btn-secondary btn-outline-dark">P R E S S</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
